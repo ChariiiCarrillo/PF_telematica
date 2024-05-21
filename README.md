@@ -9,7 +9,7 @@ Proyecto Final de telematica
 El juego de memoria es un juego clásico en el que se colocan un conjunto de cartas boca abajo y el jugador debe voltear dos cartas a la vez para encontrar parejas. El objetivo del juego es encontrar todas las parejas en el menor número de intentos y tiempo.
 
  Clona el repositorio:
-   ```bash
-   git clone 
+ en la carpeta que deses
+   git clone https://github.com/ChariiiCarrillo/PF_telematica.git
 
 
