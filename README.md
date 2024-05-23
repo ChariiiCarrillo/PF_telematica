@@ -10,6 +10,7 @@ El juego de memoria es un juego clásico en el que se colocan un conjunto de car
 
 # Clona el repositorio:
    Pasos:
+   
      1. Desde la terminal clonas el repositorio en la carpeta que desees
         comando: git clone https://github.com/ChariiiCarrillo/PF_telematica.git
         
