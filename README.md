@@ -17,20 +17,17 @@ El juego de memoria es un juego clásico en el que se colocan un conjunto de car
      2. Ingresar a la carpeta donde clonaste el repositorio 
         comando: cd "nombre_carpeta"
         
-     3. Para verificar que el clonaje fue exitoso
-        comando: ls
-        
-     4. Ahora ingresas a la carpeta PF_telematica
+     3. Ahora ingresas a la carpeta PF_telematica
         comando: cd PF_telematica
         
-     5. Ingresas a la siguiente carpeta 
+     4. Ingresas a la siguiente carpeta 
         comando: cd ProyectoFinalTelematica
         
-     6. Ahi encontraras una carpeta llamada  front y un archivo llamado main.ft. En el front encontraras todo el codigo de la pagina y su archivo dockerfile 
+     5. Ahi encontraras una carpeta llamada  front y un archivo llamado main.ft. En el front encontraras todo el codigo de la pagina y su archivo dockerfile 
        el archivo main es el que automatizara todo el proceso de la creacion de la maquina virtual en aws(necesitas credenciales) y la creacion de los contenedores.
        Las credenciales las tienes que tener configuradas desde aws CLI.
        
-     8. Necesitas un par de claves que crearas con este nombre "llaveIac" y de tamaño 4096 en la carpeta .ssh
+     6. Necesitas un par de claves que crearas con este nombre "llaveIac" y de tamaño 4096 en la carpeta .ssh
         comandos: cd ~/.ssh (ingresas a la carpeta)
                  ssh-keygen -b 4096 (creas el par de llaves)
                  chmod 400 llaveIac (le das permiso de solo lectura a las dos llaves)
